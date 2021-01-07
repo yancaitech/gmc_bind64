@@ -6,7 +6,8 @@ edition = "2018"
 license = "MIT OR Apache-2.0"
 keywords = ["ink", "ink-lang", "smart-contract"]
 categories = ["cryptography::cryptocurrencies", "no-std"]
-description = "Traits for Authenticated Encryption with Associated Data (AEAD) algorithms"
+description = "ink! contract, bind 64 bytes"
+repository = "https://github.com/yancaitech/gmc_bind64"
 
 [dependencies]
 ink_primitives = { version = "3.0.0-rc2", default-features = false }
